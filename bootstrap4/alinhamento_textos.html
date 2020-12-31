@@ -13,10 +13,38 @@
   </head>
   <body style="margin-bottom: 200px; padding: 16px;">
 
-
-
-
-
+    <!--Parágrafo justificado-->
+    <p class="text-justify">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.</p>
+    <br>
+    <br>
+    <!--
+      Alinhamento responsivo -
+      text-<tela>-<alinhamento>
+      tela: sm, md, lg, xl
+      alinhamento: left, center, right
+    -->
+    <p class="text-sm-right">tela &gt;=576px</p><!--Small-->
+    <p class="text-md-right">tela &gt;=768px</p><!--Medium-->
+    <p class="text-lg-right">tela &gt;=992px</p><!--Large-->
+    <p class="text-xl-right">tela &gt;=1200px</p><!--Extra Large-->
+    <br>
+    <br>
+    <!--Elemento Block para Inline-->
+    <h1 class="bg-success d-inline">Lorem Ipsum</h1>
+    <p class="bg-success d-inline">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+    <br>
+    <br>
+    <!--Elemento Inline para Block-->
+    <span class="bg-success d-block">O Lorem Ipsum é um texto modelo 1.</span>
+    <br>
+    <span class="bg-success d-block">O Lorem Ipsum é um texto modelo 2.</span>
+    <br>
+    <br>
+    <!--Elemento Inline-Block-->
+    <div class="bg-warning">
+    <h3 class="bg-success d-inline-block">O Lorem Ipsum</h3>
+    <h3 class="bg-success d-inline-block" style="margin-top: 50px; width: 500px;">O Lorem Ipsum é um texto modelo</h3>
+    </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
